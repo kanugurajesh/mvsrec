@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MVSR Engineering College</title>
+    <meta name="author" content="Kanugu Rajesh (2451-22-733-172)">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <!-- Dark mode toggle -->
+    <div class="dark-mode-toggle">
+        <i class="fas fa-moon"></i>
+    </div>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="./public/mvsr.jpg" alt="College Logo">
+                <h1>MVSR Engineering College</h1>
+            </div>
+            <button class="menu-toggle" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">About Us</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Overview</a></li>
+                        <li><a href="#">Vision & Mission</a></li>
+                        <li><a href="#">Chairman's Message</a></li>
+                        <li><a href="#">Principal's Message</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Management</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Board of Directors</a></li>
+                        <li><a href="#">Governing Body</a></li>
+                        <li><a href="#">Advisory Committee</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Administration</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Administrative Staff</a></li>
+                        <li><a href="#">Office Staff</a></li>
+                        <li><a href="#">Committees</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Departments</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Computer Science</a></li>
+                        <li><a href="#">Electronics</a></li>
+                        <li><a href="#">Mechanical</a></li>
+                        <li><a href="#">Civil</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Admissions</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Admission Process</a></li>
+                        <li><a href="#">Fee Structure</a></li>
+                        <li><a href="#">Scholarships</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Students</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Student Life</a></li>
+                        <li><a href="#">Activities</a></li>
+                        <li><a href="#">Alumni</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Academics</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Programs</a></li>
+                        <li><a href="#">Calendar</a></li>
+                        <li><a href="#">Examinations</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Placements</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Statistics</a></li>
+                        <li><a href="#">Recruiters</a></li>
+                        <li><a href="#">Training</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Facilities</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Library</a></li>
+                        <li><a href="#">Labs</a></li>
+                        <li><a href="#">Sports</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">R & D</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Research Centers</a></li>
+                        <li><a href="#">Publications</a></li>
+                        <li><a href="#">Projects</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">IIC & EDC</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Innovation Cell</a></li>
+                        <li><a href="#">Entrepreneurship</a></li>
+                        <li><a href="#">Startups</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">MOUs</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Industry Partners</a></li>
+                        <li><a href="#">Academic Partners</a></li>
+                        <li><a href="#">Collaborations</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Women Empowerment</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Women Cell</a></li>
+                        <li><a href="#">Programs</a></li>
+                        <li><a href="#">Achievements</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="slider-wrapper">
+        <div class="hero-slider">
+            <div class="slide active">
+                <img src="https://images.unsplash.com/photo-1562774053-701939374585?w=1600" alt="College Campus">
+                <div class="slide-content">
+                    <h2>Welcome to MVSR Engineering College</h2>
+                    <p>Shaping Tomorrow's Engineers Today</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=1600" alt="College Events">
+                <div class="slide-content">
+                    <h2>Vibrant Campus Life</h2>
+                    <p>Engaging Activities and Cultural Events</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=1600" alt="Placements">
+                <div class="slide-content">
+                    <h2>Excellence in Placements</h2>
+                    <p>Building Careers with Top Companies</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=1600" alt="Research">
+                <div class="slide-content">
+                    <h2>Research & Innovation</h2>
+                    <p>Pushing Boundaries in Technology</p>
+                </div>
+            </div>
+
+            <button class="slider-nav prev">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="slider-nav next">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+
+            <div class="slider-dots"></div>
+        </div>
+    </div>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Welcome to MVSR Engineering College</h1>
+                <p>Shaping Tomorrow's Engineers Today</p>
+                <a href="#" class="cta-button">Explore Programs</a>
+            </div>
+        </section>
+
+        <!-- News Ticker -->
+        <div class="news-ticker">
+            <marquee behavior="scroll" direction="left">
+                <span class="highlight">🔥 BE-OU Main/Supple(AICTE/CBCS/Non-CBCS) Exam Fee Payment Instructions</span> |
+                <span class="highlight">📢 Placements 2023 (720+ Offers): 24LPA Goldman Sachs, 24LPA Zscaler</span> |
+                <span>ATHLEMA Sports Fest - 08th & 09th August 2024</span>
+            </marquee>
+        </div>
+
+        <!-- Quick Links Grid -->
+        <section class="quick-links">
+            <div class="container">
+                <div class="quick-links-grid">
+                    <a href="#" class="quick-link-item">
+                        <i class="fas fa-user-graduate"></i>
+                        <span>PROFESSIONAL BODIES</span>
+                    </a>
+                    <a href="#" class="quick-link-item">
+                        <i class="fas fa-bus"></i>
+                        <span>TRANSPORTATION</span>
+                    </a>
+                    <a href="#" class="quick-link-item">
+                        <i class="fas fa-clock"></i>
+                        <span>TIME TABLES</span>
+                    </a>
+                    <a href="#" class="quick-link-item">
+                        <i class="fas fa-book"></i>
+                        <span>SYLLABUS</span>
+                    </a>
+                    <a href="#" class="quick-link-item">
+                        <i class="fas fa-building"></i>
+                        <span>FACILITIES</span>
+                    </a>
+                    <a href="#" class="quick-link-item">
+                        <i class="fas fa-photo-video"></i>
+                        <span>MEDIA ROOM</span>
+                    </a>
+                    <a href="#" class="quick-link-item">
+                        <i class="fas fa-users"></i>
+                        <span>ALUMNI</span>
+                    </a>
+                    <a href="#" class="quick-link-item">
+                        <i class="fas fa-trophy"></i>
+                        <span>MILESTONES</span>
+                    </a>
+                    <a href="#" class="quick-link-item">
+                        <i class="fas fa-laptop"></i>
+                        <span>SWAYAM</span>
+                    </a>
+                    <a href="#" class="quick-link-item">
+                        <i class="fas fa-clipboard-list"></i>
+                        <span>ATTENDANCE</span>
+                    </a>
+                    <a href="#" class="quick-link-item">
+                        <i class="fas fa-credit-card"></i>
+                        <span>PAY FEES ONLINE</span>
+                    </a>
+                    <a href="#" class="quick-link-item">
+                        <i class="fas fa-users-cog"></i>
+                        <span>STUDENT CLUB</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- College Profile Section -->
+        <section class="college-profile">
+            <div class="container">
+                <div class="profile-content">
+                    <div class="profile-text">
+                        <h2>College Profile</h2>
+                        <p>Maturi Venkata Subba Rao (MVSR) Engineering College was established in 1981 with affiliation
+                            to Osmania University. Currently, the college has B.E programs in Civil, CSE, ECE, EEE, IT,
+                            Mechanical and Automobile Engineering, PG programs in CSE, ECE and Mechanical besides MBA.
+                        </p>
+                        <div class="profile-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">1000+</span>
+                                <span class="stat-label">Students per Year</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">40+</span>
+                                <span class="stat-label">Years of Excellence</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">720+</span>
+                                <span class="stat-label">Placements in 2023</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profile-image">
+                        <img src="https://images.unsplash.com/photo-1562774053-701939374585?w=800"
+                            alt="College Building">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Placement Partners -->
+        <section class="placement-partners">
+            <div class="container">
+                <h2>Our Placement Partners</h2>
+                <div class="partners-slider">
+                    <div class="partner-logos">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Cisco_logo_blue_2016.svg/1200px-Cisco_logo_blue_2016.svg.png"
+                            alt="Cisco">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1200px-Amazon_logo.svg.png"
+                            alt="Amazon">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png"
+                            alt="Google">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/1200px-Microsoft_logo.svg.png"
+                            alt="Microsoft">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Intel_logo_2023.svg/1200px-Intel_logo_2023.svg.png"
+                            alt="Intel">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- News and Events -->
+        <section class="news-events">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Latest News & Events</h2>
+                    <a href="#" class="view-all">View All</a>
+                </div>
+                <div class="news-grid">
+                    <div class="news-card">
+                        <div class="news-image">
+                            <img src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=500"
+                                alt="Sports Event">
+                        </div>
+                        <div class="news-content">
+                            <span class="news-date">Aug 8-9, 2024</span>
+                            <h3>ATHLEMA Sports Fest</h3>
+                            <p>Annual sports festival featuring various indoor and outdoor sports competitions.</p>
+                            <a href="#" class="read-more">Read More →</a>
+                        </div>
+                    </div>
+                    <div class="news-card">
+                        <div class="news-image">
+                            <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=500"
+                                alt="Placement">
+                        </div>
+                        <div class="news-content">
+                            <span class="news-date">Jan 5, 2024</span>
+                            <h3>Record Placements</h3>
+                            <p>720+ offers with highest package of 24 LPA from Goldman Sachs</p>
+                            <a href="#" class="read-more">Read More →</a>
+                        </div>
+                    </div>
+                    <div class="news-card">
+                        <div class="news-image">
+                            <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=500"
+                                alt="Workshop">
+                        </div>
+                        <div class="news-content">
+                            <span class="news-date">June 20-30, 2024</span>
+                            <h3>Machine Learning Workshop</h3>
+                            <p>FDP on Learning Paradigms in Machine Learning & Deep Learning with Python</p>
+                            <a href="#" class="read-more">Read More →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>MVSR Engineering College</p>
+                <p>Nadergul, Hyderabad - 501510</p>
+                <p>Phone: +91-XXX-XXX-XXXX</p>
+                <p>Email: info@mvsrec.edu.in</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Academic Calendar</a></li>
+                    <li><a href="#">Exam Schedule</a></li>
+                    <li><a href="#">Results</a></li>
+                    <li><a href="#">Campus Map</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 MVSR Engineering College. All rights reserved.</p>
+            <p>Website created by Kanugu Rajesh (2451-22-733-172)</p>
+        </div>
+    </footer>
+
+    <!-- Chatbot Icon -->
+    <div class="chat-icon" id="chatIcon">
+        <i class="fas fa-comments"></i>
+    </div>
+
+    <!-- Chatbot Widget -->
+    <div class="chatbot-widget hidden" id="chatbot">
+        <div class="chatbot-header">
+            <h3>MVSR Assistant</h3>
+            <div class="chatbot-controls">
+                <button class="chatbot-toggle"><i class="fas fa-minus"></i></button>
+                <button class="chatbot-close"><i class="fas fa-times"></i></button>
+            </div>
+        </div>
+        <div class="chatbot-body">
+            <div class="chat-messages" id="chatMessages">
+                <div class="message bot">
+                    Hello! How can I help you today?
+                </div>
+            </div>
+            <div class="chat-input">
+                <input type="text" id="userInput" placeholder="Type your message...">
+                <button id="sendMessage"><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
