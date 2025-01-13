@@ -167,6 +167,12 @@ body {
     padding: 1rem;
   }
 
+  #darkModeToggle {
+    position: absolute;
+    right: 3.5rem;
+    top: 1.5rem;
+  }
+
   .menu-toggle {
     display: block;
     position: absolute;
