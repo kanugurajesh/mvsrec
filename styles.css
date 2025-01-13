@@ -96,8 +96,12 @@ body {
 }
 
 .nav-link:hover {
-  background: var(--background);
-  color: var(--primary);
+  background: var(--primary);
+  color: var(--background);
+}
+
+[data-theme="dark"] .nav-link:hover {
+  background: white;
 }
 
 .dropdown {
@@ -575,6 +579,11 @@ body {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
   transition: all 0.3s ease;
   border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+[data-theme="dark"] .news-card {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .news-card:hover {
